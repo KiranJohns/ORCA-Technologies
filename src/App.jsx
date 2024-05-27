@@ -2,12 +2,16 @@ import React from 'react'
 import {Route, BrowserRouter as Router, Routes} from 'react-router-dom';
 import Navbar from './components/Navbar';
 import {Home, About, Projects, Contact} from './pages'
+import Loading1 from './components/Loading1';
 
  
 const App = () => {
+
+
   return (
-<main className='bg-slate-300/20'>
+<main >
 <Router>
+  
   <Navbar/>
   <Routes>
       <Route path='/' element={<Home />}/>
