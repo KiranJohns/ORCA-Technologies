@@ -26,7 +26,7 @@ const Projects = () => {
         <div>
   
           <h1 className='head-text'>
-            My<span className='text-blue-400 font-semibold drop-shadow'> Projects</span>
+            My<span className='text-white font-semibold drop-shadow'> Projects</span>
           </h1>
           <div className='mt-5 flex flex-col gap-3'>
             <p >
@@ -52,7 +52,7 @@ const Projects = () => {
                   <h4 className='text-2xl font-poppins font-semibold'>
                     {project.name}
                   </h4>
-                  <p className='mt-2 text-slate-500'>
+                  <p className='mt-2 text-slate-900'>
                     {project.description}
                   </p>
                 </div>

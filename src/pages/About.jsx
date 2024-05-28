@@ -24,7 +24,7 @@ const About = () => {
       <div>
 
         <h1 className='head-text'>
-          Hello I'm <span className='text-blue-400 font-semibold drop-shadow'>Kiran</span>
+          Hello I'm <span className='text-white font-semibold drop-shadow'>Kiran</span>
         </h1>
         <div className='mt-5 flex flex-col gap-3'>
           <p >
