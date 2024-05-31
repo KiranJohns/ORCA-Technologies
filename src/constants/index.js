@@ -1,5 +1,6 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
+    bootstrap,
     car,
     contact,
     css,
@@ -106,7 +107,12 @@ export const skills = [
         imageUrl: typescript,
         name: "TypeScript",
         type: "Frontend",
-    }
+    },
+    // {
+    //     imageUrl: bootstrap,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // }
 ];
 
 export const experiences = [
@@ -184,42 +190,42 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: pricewise,
+        iconUrl: nextjs,
         theme: 'btn-back-red',
         name: 'Learn For Care',
-        description: 'Developed a web application for a UK based client on NextJs. The Learn for Care website offers online training courses aimed at professionals in the health and social care sectors.',
+        description: 'Developed a web application for a UK based client on Next.js. The Learn for Care website offers online training courses aimed at professionals in the health and social care sectors.',
         link: 'https://learnforcare.co.uk/',
     },
     {
-        iconUrl: threads,
+        iconUrl: nextjs,
         theme: 'btn-back-green',
         name: 'Astra Nova Career',
-        description: 'Developed a full-stack application using React.js for the front end and Express.js for the back end for Astra Nova Careers, a job consultancy primarily focused on healthcare sector jobs.',
+        description: 'Developed a full-stack application using Next.js for the front end and Express.js for the back end for Astra Nova Careers, a job consultancy primarily focused on healthcare sector jobs.',
         link: 'https://www.astranova.co.in/',
     },
     {
-        iconUrl: car,
+        iconUrl: html,
         theme: 'btn-back-blue',
         name: 'Dale View',
         description: "Designed and built a web app for 'The DaleView Care Point', which built on HTML, CSS, Js and CodeIgniter",
         link: 'https://carepoint.daleview.in',
     },
     {
-        iconUrl: snapgram,
+        iconUrl: html,
         theme: 'btn-back-pink',
         name: 'Aden Digital',
         description: 'Built a website for "Aden Digital", using HTML, CSS and Js. ',
         link: 'https://vizhinjamvarf.com',
     },
     {
-        iconUrl: estate,
+        iconUrl: html,
         theme: 'btn-back-black',
         name: 'VARF',
         description: 'Developed a web application for "VARF", using HTML, CSS and Js.',
         link: 'https://vizhinjamvarf.com',
     },
     {
-        iconUrl: summiz,
+        iconUrl: html,
         theme: 'btn-back-yellow',
         name: 'Noble Enterprises',
         description: 'esigned and built a web app for "Noble Enterprise", which built on HTML, CSS, Js and CodeIgniter',

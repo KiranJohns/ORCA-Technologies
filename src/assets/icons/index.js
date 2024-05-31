@@ -9,7 +9,7 @@ import motion from './motion.svg'
 import mui from './mui.svg'
 import nextjs from './nextjs.svg'
 import nodejs from './nodejs.svg'
-import react from './react.svg'
+import react from './react1.svg'
 import redux from './redux.svg'
 import sass from './sass.svg'
 import tailwindcss from './tailwindcss.svg'
@@ -26,10 +26,12 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import bootstrap from './bootstrap.svg'
 
 export {
     css,
     express,
+    bootstrap,
     git,
     github,
     html,
