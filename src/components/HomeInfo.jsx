@@ -30,7 +30,7 @@ const InfoBox = ({ text, link, btnText }) => (
       <h1 className='sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white mx-5'>
         Hi, I am <span>Kiran 👋</span>
         <br />
-        {swipe ? swipe1 : "A Front-End Developer from India" }
+       {swipe ? swipe1 : (<div className='geeks'><span >A Front-End Developer from India</span></div>)  }
       </h1>
     ),
     2: (

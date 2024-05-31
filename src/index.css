@@ -272,3 +272,41 @@ body:has(.card[data-color="green"]:hover) {
   .z-max{
     z-index: 999;
   }
+
+
+
+  .geeks { 
+  
+    top: 50%; 
+  
+    left: 40%; 
+    /* border-bottom: 2.5px solid white;  */
+    overflow: hidden; 
+    animation: animate 2s linear forwards; 
+} 
+
+.geeks span { 
+    color: white; 
+} 
+
+@keyframes animate { 
+    0% { 
+        width: 0%; 
+        height: 0px; 
+    } 
+
+    30% { 
+        width: 50%; 
+        height: 10px; 
+    } 
+
+    60% { 
+        width: 80%; 
+        height: 25px; 
+    } 
+
+    80% { 
+      width: 100%; 
+      height: 30px; 
+  } 
+} 
